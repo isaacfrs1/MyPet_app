@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(cat.webp);
+    background-position: center;
+}
+
+.container1 {
+    
+}
+
+.container {
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 50px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.container input[type="email"],
+.container input[type="password"],
+.container input[type="tel"] {
+  height: 10px; /* Aumenta a altura dos campos */
+  font-size: 18px; /* Aumenta o tamanho da fonte */
+  padding: 8px; /* Adiciona um pouco de espaço interno */
+  margin-bottom: 5px; /* Adiciona espaço entre os campos */
+  border: 1px solid #ccc; /* Adiciona uma borda */
+  border-radius: 5px;
+}
+
+/* Estilos para o botão "Entrar" */
+button {
+    background-color: #9932cc; /* Roxo */
+    color: #000; /* Preto */
+    border: 2px solid #9932cc; /* Borda rosa */
+    border-radius: 50%; /* Botão redondo */
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Estilos para o link "Cadastre-se" */
+a {
+    color: #9932cc; /* Roxo */
+    font-size: 18px; /* Aumenta o tamanho da fonte */
+    text-decoration: none;
+}
